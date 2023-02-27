@@ -1,0 +1,23 @@
+name: AdvancedFB
+version: '${project.version}'
+main: me.banana.AdvancedFB
+api-version: 1.8.8
+authors: [ Bqnana_ ]
+description: AdvancedFB - The Most Advanced FastBuilder Plugin! With tick-based timers and an Anti-Cheat this is the best open source FastBuilder Plugin!
+commands:
+  fastbuilder:
+    description: The Main FastBuilder Command for Joining or Leaving FastBuilder.
+    usage: /fastbuilder <join|leave>
+    aliases:
+      - fb
+      - fastbridge
+      - fastbridger
+  fastbuildermap:
+    description: The FastBuilder Command for Creating Arenas/Maps/Islands.
+    usage: /fastbuilder <create|set> <mode> <id|reset|spawn>
+    permission: fastbuilder.admin
+    permission-message: §cYou do not have the permission to execute this command.
+    aliases:
+      - fbmap
+      - fastbridgemap
+      - fastbridgermap

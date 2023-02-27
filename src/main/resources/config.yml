@@ -1,0 +1,102 @@
+modes:
+
+settings:
+  prefix: '&7[&4Advanced&cFB&7]'
+  messages:
+    join_message: '&7You have joined &eFastBuilder!'
+    leave_message: '&7You have left &eFastBuilder!'
+    already_joined_message: '&7You already joined &eFastBuilder!'
+    not_in_fastbuilder_message: '&7You are not in &eFastBuilder!'
+  max_time:
+    enabled: true
+    max_time: 1
+    max_time_message: '&cTimerLag/Cheating Detected! Your time was not counted.'
+  permissions:
+    fastbuilder-admin: 'fb.admin'
+    fastbuilder-vip: 'fb.vip'
+  item-names:
+    blocks: '&7x &6Blocks &7x'
+    pickaxe: '&7x &6Block Demolisher &7x'
+    settings: '&7x &6Settings &7x'
+    modes: '&7x &6Modes &7x'
+    leave: '&7x &6Leave &7x'
+  items:
+    blocks: 'SANDSTONE'
+    pickaxe: 'DIAMOND_PICKAXE'
+    settings: 'EMERALD'
+    modes: 'PAPER'
+    leave: 'SLIME_BALL'
+  gui:
+    modes:
+      title: '&7x &6Modes &7x'
+      size: 9
+      slot-1:
+        item: 'SANDSTONE'
+        name: '&7x &6Short Distance &7x &628 Blocks Distance &7x'
+        mode: 'short'
+    settings:
+      title: '&7x &6Settings &7x'
+      size: 27
+      slot-10:
+        item: 'BOOK'
+        name: '&7x &6Stats &7x'
+      slot-13:
+        item: 'SANDSTONE'
+        name: '&7x &6Blocks &7x'
+      slot-16:
+        item: 'DIAMOND_AXE'
+        name: '&7x &6Reset Personal Best &7x'
+  anti-swearing:
+    enabled: true
+    swearing-message: '&cSwearing Is Not Allowed!'
+    swear-words:
+      - fuck
+      - shit
+      - ass
+      - bitch
+      - nigger
+      - nigga
+      - niga
+      - niger
+      - motherfucker
+      - dumbass
+      - sh1t
+      - sh!t
+      - f*ck
+      - sh*t
+      - cum
+      - sex
+      - dick
+      - pussy
+      - b*tch
+      - n*gger
+      - n*gga
+      - n*ga
+      - n*ger
+      - motherfuck
+      - motherf*cker
+      - motherf*ck
+      - whore
+      - kys
+      - kms
+      - die
+      - anal
+      - oral
+      - daddy
+      - porn
+      - pornhub
+      - the hub
+      - k*ll yourself
+      - kill yourself
+      - wigger
+      - migger
+      - gigga
+      - sexy
+  lobby-position:
+    x:
+    y:
+    z:
+    yaw:
+    pitch:
+
+
